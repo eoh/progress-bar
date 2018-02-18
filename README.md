@@ -1,5 +1,18 @@
 # Progress Bar with React and Typescript
 
+### notes
+- Originally I was going to just use React but given the number of props, it made sense to use a typechecker.  Using Jest for unit-testing was a no-brainer.
+- The progress bar is essentially broken up into a container (PureComponent) and presenter (Stateless Component), primarily so that the container manages state issues.
+- Listener and ```handleExternalUpdate``` callback for handling managing external state changes have been commented out, it felt adequate at this time to just show how they'd be used
+
+### improvement ideas/to-do's
+- Redux
+- Improve test coverage: currently am just ensuring components render properly based on props
+- Currently props overwrite css in progress-bar.css, would be better to make use of ```defaultProps```
+- Add aria options to make the progress bar accessible?
+- Add option to make the progress bar continuous, like a loading icon?
+- The components could probably be named better
+
 ### optional props to override CSS
 
 | name          | type           | default  | description                                             |
