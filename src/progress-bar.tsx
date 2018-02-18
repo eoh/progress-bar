@@ -35,7 +35,6 @@ const ProgressBar: React.StatelessComponent<ProgressBarContainerProps
   return (
     <div
       className="progress-bar"
-      data-progress="10"
       style={{
         border: `${borderStyle}%`,
         borderRadius: `${borderRadius}px`,
