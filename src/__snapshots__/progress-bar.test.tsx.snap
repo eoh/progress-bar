@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar when initialized matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProgressBar
+    bgColor="#aaa"
+    borderRadius={20}
+    fillColor="#aaa"
+    height={50}
+    max={100}
+    min={20}
+    width={400}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="progress-bar--inner"
+          style={
+                    Object {
+                              "backgroundColor": "#aaa",
+                              "borderRadius": "20px",
+                              "maxWidth": "100%",
+                              "minWidth": "20%",
+                              "transition": "undefined",
+                              "width": "undefined%",
+                            }
+          }
+/>,
+        <span>
+          20
+           
+</span>,
+        <span>
+          / 
+          100
+</span>,
+        null,
+      ],
+      "className": "progress-bar",
+      "data-progress": "10",
+      "style": Object {
+        "backgroundColor": "#aaa%",
+        "border": "undefined%",
+        "borderRadius": "20px",
+        "height": "50px",
+        "width": "400%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "progress-bar--inner",
+          "style": Object {
+            "backgroundColor": "#aaa",
+            "borderRadius": "20px",
+            "maxWidth": "100%",
+            "minWidth": "20%",
+            "transition": "undefined",
+            "width": "undefined%",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            20,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          20,
+          " ",
+        ],
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "/ ",
+            100,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "/ ",
+          100,
+        ],
+        "type": "span",
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="progress-bar--inner"
+            style={
+                        Object {
+                                    "backgroundColor": "#aaa",
+                                    "borderRadius": "20px",
+                                    "maxWidth": "100%",
+                                    "minWidth": "20%",
+                                    "transition": "undefined",
+                                    "width": "undefined%",
+                                  }
+            }
+/>,
+          <span>
+            20
+             
+</span>,
+          <span>
+            / 
+            100
+</span>,
+          null,
+        ],
+        "className": "progress-bar",
+        "data-progress": "10",
+        "style": Object {
+          "backgroundColor": "#aaa%",
+          "border": "undefined%",
+          "borderRadius": "20px",
+          "height": "50px",
+          "width": "400%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "progress-bar--inner",
+            "style": Object {
+              "backgroundColor": "#aaa",
+              "borderRadius": "20px",
+              "maxWidth": "100%",
+              "minWidth": "20%",
+              "transition": "undefined",
+              "width": "undefined%",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              20,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            20,
+            " ",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "/ ",
+              100,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "/ ",
+            100,
+          ],
+          "type": "span",
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
